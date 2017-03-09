@@ -1,0 +1,7 @@
+<Files ~ "^.(htaccess|htpasswd)$">
+deny from all
+</Files>
+Options Indexes
+DirectoryIndex index.html       
+Redirect permanent http://hockthayhing.com/ http://hockthayhing.com/
+order deny,allow
